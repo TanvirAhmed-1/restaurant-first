@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Work Sans", sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Work Sans;
+}
+.hero{
+    height:680px;
+    background-image:linear-gradient(0.00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%),url(assets/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero.hero1{
+    width: 350px;
+    height: 380px;
+
+}
+.sub{
+color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 600;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: center;
+opacity: 0.8;
+
+}
+.sub1{
+    color: rgb(255, 255, 255);
+font-family: Work Sans;
+font-size: 50px;
+font-weight: 700;
+line-height: 50px;
+letter-spacing: 0%;
+text-align: center;
+margin:16px;
+}
+.sub2{
+    text-align: center;
+color: rgb(255,255,255);
+opacity: 0.7;
+font-size: 15px;
+font-weight:500;
+letter-spacing: 0%;
+font-family: work sans;
+margin:18px;
+
+}
+.btn{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    height: 50px;
+    width: 270px;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    border:none;
+    cursor: pointer;
+}
+.button{
+    text-align: center;
+    margin-top: 30px ;
+}
+
+.food{
+    background: rgb(255, 255, 255);
+    
+}
+.continer{
+
+width: 920px;
+height: 576px;
+margin: 130PX auto;
+
+}
+
+.title p{
+   opacity: 0.6;
+   color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+}
+.title h1{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 30px;
+font-weight: 500;
+line-height:47px;
+letter-spacing: 0%;
+text-align: center;
+margin: 20px auto;
+}
+.pizza{
+  border-radius: 8px;
+  background-color: rgba(82, 195, 3, 0.15);
+  padding: 10px 20px;
+   text-align: center;
+   cursor: pointer;
+}
+.pi{
+    margin: 30px auto;
+}
+.sp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+
+}
+.ta{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 30px;
+font-weight: 500;
+line-height: 47px;
+letter-spacing: 0%;
+text-align: center;
+}
+.pa{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height:18px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 20px auto;
+}
+.contant{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.btn1{
+    border-radius: 8px;
+    cursor: pointer;
+
+    background: rgb(82, 195, 3);
+    padding: 14px 27px 14px 27px;
+    border: none;
+    color: white;
+    margin: 15px auto;
+}
+.img-box1 .img{
+    width:280px;
+
+}
+.img-box1 .img img{
+    width: 100%;
+    /* position: absolute; */
+}
+.img-box1{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+}
+.f{
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    font-family: Work Sans;
+  
+}
+.titlet
+:first-child{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 30px;
+font-weight: 500;
+line-height: 50px;
+letter-spacing: 0%;
+text-align: center;
+padding-left:80px;
+
+}
+.foot2{
+    margin: 300px auto;
+    width: 100%;
+    height: 400px;
+}
+.titlet p{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 15px;
+font-weight: 300;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+opacity: 0.9;
+}
+.flow{
+    box-sizing: border-box;
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+    border-top: 1px solid rgba(16, 16, 16, 0.2);
+}
+.titler :last-child{
+    color: rgb(16, 16, 16);
+font-family: Work Sans;
+font-size: 32px;
+font-weight: 600;
+line-height: 38px;
+letter-spacing: 0%;
+text-align: center;
+}
+.mean{
+
+    height: 600px;
+    width:80%;
+    margin: 200px auto;
+
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    padding-top: 100px;
+    box-sizing: border-box;
+}
+.imgt{
+ width: 50%;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ 
+}
+.imgt img{
+  width:600px;
+  position:sticky;
+  background-position: center;
+  height: 300px;
+  overflow: hidden;
+}
+.titlet{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+   
+}
